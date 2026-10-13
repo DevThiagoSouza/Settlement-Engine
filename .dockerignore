@@ -1,0 +1,62 @@
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Build outputs
+bin/
+dist/
+*.exe
+*.dll
+*.dylib
+
+# Go cache
+vendor/
+go.sum.lock
+
+# Test coverage
+coverage.out
+coverage.html
+*.prof
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation build files
+_site/
+site/
+docs/api/
+
+# Examples
+examples/node_modules/
+
+# Unused
+README.md.bak
+CHANGELOG.bak
